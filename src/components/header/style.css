@@ -1,0 +1,33 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.headerLinks {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: rgb(162, 0, 255);
+}
+
+li {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
