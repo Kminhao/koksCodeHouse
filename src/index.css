@@ -9,3 +9,7 @@
     background-position: center;
     background-size: 10%;
 }
+
+body {
+    overflow: hidden;
+}

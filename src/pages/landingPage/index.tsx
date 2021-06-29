@@ -9,7 +9,6 @@ function landingPage() {
     return(
         <div className="landingContainer">
             <Header />
-
             <div className="canvas">
                 <Particles
                     options={{

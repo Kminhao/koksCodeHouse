@@ -10,10 +10,10 @@ function header() {
         <div className="headerContainer">
            
                 <ul className="headerLinks">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Galeria</a></li>
-                    <li><a href="">Enviar a braba</a></li>
-                    <li><a href="">Rapeize</a></li>
+                    <li><a className="link" href="">Home</a></li>
+                    <li><a  className="link" href="">Galeria</a></li>
+                    <li><a  className="link" href="">Enviar a braba</a></li>
+                    <li><a  className="link" href="">Rapeize</a></li>
                 </ul>
 
 
