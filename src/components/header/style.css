@@ -1,33 +1,50 @@
 .headerContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100vw;
-    height: 10vh;
-    background: rgba(255, 255, 255, 0.1);
+    height: 8vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
 }
 
 .headerLinks {
     display: flex;
-    width: 80vw;
+    width: 50vw;
     justify-content: space-between;
     align-items: center;
+    background: none;
+    margin-right: 0.5rem;
+    background: none;
 }
 
 a {
     color: white;
+    font-size: 1.2rem;
     text-decoration: none;
+    background: none;
+    font-family: 'Varela Round', sans-serif;
 }
 
 a:hover {
-    transition: 0.5s;
-    color: rgb(162, 0, 255);
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+    padding-top: 50px;
+    background: none;
 }
 
 li {
-    font-size: 2rem;
+    background: none;
 }
 
 ul {
     list-style-type: none;
+    background: none;
+}
+
+@media(min-width: 1300px) {
+    a {
+        font-size: 2rem;
+    }
 }
