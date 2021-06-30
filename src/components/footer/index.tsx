@@ -1,11 +1,14 @@
 import react from 'react';
-
+import './style.css'
 
 
 
 function footer() {
     return(
-        <div>
+        <div className="footerContainer">
+            <li className="footerLinks">
+                <p>Designed & Produced by Singularity</p>
+            </li>
 
         </div>
     );

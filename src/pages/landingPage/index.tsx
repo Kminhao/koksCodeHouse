@@ -2,7 +2,7 @@ import react from 'react';
 import './style.css';
 import Particles from "react-tsparticles";
 import Header from '../../components/header';
-
+import Footer from '../../components/footer';
 
 
 function landingPage() {
@@ -17,15 +17,17 @@ function landingPage() {
                                 "enable": true
                             },
                             "move": {
-                                "enable": true
+                                "enable": false //mudar pra true pra animação rolar
                             },
                             "size": {
-                                "value": 2
+                                "value": 1
                             }
                         }
                     }}
                 />
             </div>
+
+            <Footer/>
         </div>
     );
 }

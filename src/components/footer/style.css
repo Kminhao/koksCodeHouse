@@ -1,0 +1,20 @@
+.footerContainer {
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: center
+}
+
+p {
+    padding: 50px;
+    font-family: 'Varela Round', sans-serif;
+    background: none;
+    color: white;
+    margin-top: 10px
+}

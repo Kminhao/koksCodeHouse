@@ -7,9 +7,16 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 10%;
+    background-size: 22%;
 }
 
 body {
     overflow: hidden;
+}
+
+ol,
+ul,
+li,
+ol {
+    list-style: none;
 }
